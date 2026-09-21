@@ -1,0 +1,111 @@
+# Newest first. Fields:
+#   authors  - author string; the PI's name is highlighted automatically
+#   url      - optional; if omitted the title links to a PubMed search
+#   featured - true to show in the "Selected work" strip
+- year: 2026
+  title: A pore-forming antiphage defence is activated by oligomeric phage proteins
+  authors: Patel et al., incl. Norris MJ
+  venue: Nature
+  details: "651(8107)"
+
+- year: 2025
+  title: The GATE glycoprotein complex enhances human cytomegalovirus entry in endothelial cells
+  authors: Norris MJ et al.
+  venue: Nature Microbiology
+  details: "10(7)"
+  featured: true
+  blurb: A previously unrecognised glycoprotein H complex that helps cytomegalovirus get into endothelial cells.
+
+- year: 2025
+  title: A surface lipoprotein on Pasteurella multocida binds complement factor I to promote immune evasion
+  authors: Nguyen et al., incl. Norris MJ
+  venue: PLOS Pathogens
+  details: "21(5)"
+
+- year: 2025
+  title: Anti-Ebola virus mAb 3A6 protects highly viremic animals from fatal outcome via binding GP(1,2) in a position elevated from the virion membrane
+  authors: Hastie et al., incl. Norris MJ
+  venue: Nature Communications
+  details: "16(1)"
+
+- year: 2024
+  title: Development of a crystallographic screening to identify Sudan virus VP40 ligands
+  authors: Werner et al., incl. Norris MJ
+  venue: ACS Omega
+  details: "9(30)"
+
+- year: 2024
+  title: A noncanonical glycoprotein H complex enhances cytomegalovirus entry
+  authors: Norris MJ et al.
+  venue: bioRxiv
+  details: preprint
+
+- year: 2023
+  title: The C-terminus of Sudan ebolavirus VP40 contains a functionally important CXnC motif, a target for redox modifications
+  authors: Werner et al., incl. Norris MJ
+  venue: Structure
+  details: "31(9)"
+
+- year: 2022
+  title: "Measles and Nipah virus assembly: specific lipid binding drives matrix polymerization"
+  authors: Norris MJ et al.
+  venue: Science Advances
+  details: "8(29)"
+  featured: true
+  blurb: Specific membrane lipids trigger the measles and Nipah matrix proteins to polymerise into the lattice that shapes new virions.
+
+- year: 2022
+  title: Delineating the mechanism of anti-Lassa virus GPC-A neutralizing antibodies
+  authors: Enriquez et al., incl. Norris MJ
+  venue: Cell Reports
+  details: "39(8)"
+
+- year: 2021
+  title: Statin-mediated disruption of Rho GTPase prenylation and activity inhibits respiratory syncytial virus infection
+  authors: Malhi et al., incl. Norris MJ
+  venue: Communications Biology
+  details: "4(1)"
+
+- year: 2021
+  title: Alveolar-like macrophages attenuate respiratory syncytial virus infection
+  authors: Porto et al., incl. Norris MJ
+  venue: Viruses
+  details: "13(10)"
+
+- year: 2020
+  title: Ebola and Marburg virus matrix layers are locally ordered assemblies of VP40 dimers
+  authors: Wan et al., incl. Norris MJ
+  venue: eLife
+  details: "9"
+  featured: true
+  blurb: Cryo-electron tomography shows the filovirus matrix is built from VP40 dimers packed into locally ordered layers beneath the membrane.
+
+- year: 2019
+  title: Sudan ebolavirus VP35-NP crystal structure reveals a potential target for pan-filovirus treatment
+  authors: Landeras-Bueno et al., incl. Norris MJ
+  venue: mBio
+  details: "10(4)"
+
+- year: 2018
+  title: Targeting intracellular ion homeostasis for the control of respiratory syncytial virus
+  authors: Norris MJ et al.
+  venue: American Journal of Respiratory Cell and Molecular Biology
+  details: "59(6)"
+
+- year: 2017
+  title: "Targeting host cell surface nucleolin for RSV therapy: challenges and opportunities"
+  authors: Mastrangelo et al., incl. Norris MJ
+  venue: Vaccines
+  details: "5(3)"
+
+- year: 2016
+  title: Agonistic 4-1BB antibody fails to reduce disease burden during acute respiratory syncytial virus (RSV) infection
+  authors: Norris MJ et al.
+  venue: Antiviral Research
+  details: "125"
+
+- year: 2014
+  title: A new transcriptional role for matrix metalloproteinase-12 in antiviral immunity
+  authors: Marchant et al., incl. Norris MJ
+  venue: Nature Medicine
+  details: "20(5)"

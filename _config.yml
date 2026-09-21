@@ -1,0 +1,23 @@
+title: Norris Lab
+description: >-
+  Structural virology at the University of Toronto. We study how measles, Nipah,
+  Ebola and related RNA viruses assemble, and how to stop them.
+url: ""        # e.g. https://norrislab.github.io
+baseurl: ""    # e.g. /norris-lab if served from a project repository
+lang: en
+
+pi:
+  name: Michael J. Norris
+  email: michael.norris@utoronto.ca
+  phone: 416-946-7884
+  scholar: https://scholar.google.com/citations?user=IPuv3cYAAAAJ&hl=en
+  pubmed: https://www.ncbi.nlm.nih.gov/myncbi/1VC6b53jHTAkS/bibliography/public/
+  faculty_page: https://biochemistry.utoronto.ca/faculty/michael-norris
+
+address:
+  - Department of Biochemistry, University of Toronto
+  - MaRS Discovery District, West Tower, floors 15/16
+  - 661 University Ave., Toronto, ON M5G 1M1
+
+exclude:
+  - README.md
