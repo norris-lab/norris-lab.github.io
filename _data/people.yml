@@ -5,16 +5,23 @@
 #   link:  optional, personal page / LinkedIn / ORCID
 members:
   - name: Benjamin Beavington
-    role: Graduate student   # TODO: MSc or PhD?
+    photo: beavington.png
+    role: PhD student   
     note: Investigation of matrix-mediated host protein control in measles virus infection
 
   - name: David Van Ommen
-    role: Graduate student   # TODO: MSc or PhD?
+    photo: ommen.png
+    role: PhD student   
     note: Targeting the paramyxovirus matrix protein to develop broadly active antiviral therapies
 
+  - name: Taylor Battellino
+    role: PhD student
+    note: Structure-based investigation of matrix protein oligomerization and nucleoprotein interaction during paramyxovirus assembly
+
   - name: Zachary Thow
-    role: Lab member   # TODO: set role (e.g. PhD student) and project
-    link: https://www.linkedin.com/in/zachary-thow/
+    photo: thow.jpg
+    role: PhD student
+
 
 alumni: []
 #  - name: Jane Doe

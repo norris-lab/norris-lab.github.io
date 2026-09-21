@@ -4,228 +4,247 @@ layout: default
 {% assign pubs = site.data.publications %}
 {% assign people = site.data.people %}
 
-<header class="intro">
-  <div class="row">
-    <div class="main">
-      <h1>Norris Lab</h1>
-      <p class="affil">Department of Biochemistry, University of Toronto</p>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <h1>How deadly RNA viruses build themselves</h1>
       <p class="lede">
-        We study how measles, Nipah, Ebola and related RNA viruses put themselves together at
-        the cell membrane. Most of our work is structural (X-ray crystallography and cryo-EM),
-        backed up by biochemistry and virology, and the long-term aim is to find drugs that
-        stop these viruses from assembling.
+        We use X-ray crystallography, cryo-EM and biochemistry to see how measles, Nipah,
+        Ebola and related viruses assemble at the cell membrane, and we use those
+        structures to design ways to stop them.
+      </p>
+      <p class="hero-links">
+        <a class="button" href="#research">Read about our research</a>
+        <a class="button quiet" href="#join">Join the lab</a>
       </p>
     </div>
+    <figure class="hero-figure">
+      <canvas id="lattice" aria-label="Animated schematic: matrix protein dimers dock onto the inner face of a lipid membrane, and as the lattice grows the membrane bends outward into a budding virus." role="img"></canvas>
+      <figcaption>
+        Matrix protein dimers <span class="key key-matrix" aria-hidden="true"></span>
+        dock under the membrane <span class="key key-lipid" aria-hidden="true"></span>.
+        As the lattice grows it bends the membrane into a new virus particle.
+      </figcaption>
+    </figure>
   </div>
-
-  <figure class="figure">
-    <canvas id="lattice" role="img" aria-label="Animated schematic: matrix protein dimers dock onto the inner face of a lipid membrane, and as the lattice grows the membrane bends outward into a budding virus."></canvas>
-    <figcaption>
-      <b>Figure 1.</b> A schematic, not a structure. Matrix protein dimers (teal) bind the inner
-      face of the plasma membrane (magenta lipid head groups) and polymerise into a lattice.
-      The lattice curves the membrane outward, gathering glycoproteins on the outside and the
-      nucleocapsid on the inside, until a new particle buds off.
-    </figcaption>
-  </figure>
-</header>
+</section>
 
 <section id="research" class="section">
-  <div class="row">
-    <div class="main">
+  <div class="wrap split">
+    <header class="split-head">
       <h2>Research</h2>
       <p>
-        An enveloped virus has to bring its genome, its surface glycoproteins and a patch of host
-        membrane together into one particle. In paramyxoviruses and filoviruses the matrix protein
-        organises this. It forms dimers that tile into a lattice just under the plasma membrane,
-        and that lattice decides where the virus buds, what it packages and what shape it takes.
-        We want to understand the matrix well enough to break it.
+        Every enveloped virus has to gather its genome, its surface proteins and a piece of
+        host membrane into one particle. In paramyxoviruses and filoviruses that job falls to
+        the matrix protein. We study how it does it.
       </p>
-    </div>
-  </div>
+    </header>
 
-  <div class="row">
-    <div class="main">
-      <h3>The matrix lattice</h3>
-      <p>
-        We solve structures of matrix proteins alone and in assemblies, from crystal structures
-        of dimers to cryo-EM and cryo-electron tomography of lattices inside virus-like particles
-        and virions. Our questions are about contacts: which surfaces hold the lattice together,
-        how it bends the membrane, and how it links to the glycoproteins above it and the
-        nucleocapsid below.
-      </p>
-    </div>
-    <aside class="margin">
-      Filovirus VP40 dimers form chains that stack into patches of 2D lattice beneath the
-      membrane.
-      <a href="https://doi.org/10.7554/eLife.59225">Wan et al., <i>eLife</i> 2020</a>
-    </aside>
-  </div>
+    <div class="split-body">
+      <article class="theme">
+        <h3>Building the matrix lattice</h3>
+        <p>
+          Matrix proteins pair into dimers and tile into an ordered layer just beneath the viral
+          envelope. We determine the structures of these assemblies, from single dimers in crystals
+          to whole lattices in virions by cryo-EM and cryo-electron tomography, to learn which
+          contacts hold the lattice together and how it curves the membrane.
+        </p>
+      </article>
 
-  <div class="row">
-    <div class="main">
-      <h3>Lipids as the trigger</h3>
-      <p>
-        Measles and Nipah virus matrix proteins recognise phosphatidylserine and
-        PI(4,5)P<sub>2</sub> at the plasma membrane. Binding PI(4,5)P<sub>2</sub> changes the
-        protein's surface and sets off polymerisation and membrane deformation. The next question
-        is how lipid recognition decides where and when assembly starts.
-      </p>
-    </div>
-    <aside class="margin">
-      <a href="https://doi.org/10.1126/sciadv.abn1440">Norris et al., <i>Science Advances</i> 2022</a>
-    </aside>
-  </div>
+      <article class="theme">
+        <h3>How lipids switch assembly on</h3>
+        <p>
+          We found that measles and Nipah virus matrix proteins bind specific membrane lipids,
+          and that this binding is what drives them to polymerise. We are mapping how lipid
+          recognition, membrane curvature and contacts with the viral glycoproteins and
+          nucleocapsid are coordinated to produce an infectious particle.
+        </p>
+      </article>
 
-  <div class="row">
-    <div class="main">
-      <h3>Antivirals</h3>
-      <p>
-        There are no approved drugs for Nipah or Marburg virus disease. Matrix proteins are
-        essential and well conserved within each family, so their lipid-binding sites and lattice
-        contacts are attractive targets. We use crystallographic fragment screening to find
-        compounds that bind them and then test whether those compounds block assembly and budding.
-      </p>
-    </div>
-    <aside class="margin">
-      <a href="https://doi.org/10.1021/acsomega.4c04829">Werner et al., <i>ACS Omega</i> 2024</a>
-      describes a crystallographic screen against Sudan virus VP40.
-    </aside>
-  </div>
+      <article class="theme">
+        <h3>Structure-guided antivirals</h3>
+        <p>
+          There are few treatments for these infections. Because matrix proteins are essential
+          and conserved, their lattice contacts and lipid-binding pockets are drug targets. We run
+          crystallographic fragment screens and functional assays to find molecules that stop
+          viruses from assembling.
+        </p>
+      </article>
 
-  <div class="row">
-    <div class="main">
-      <table class="viruses">
-        <caption>Viruses we work on</caption>
-        <thead>
-          <tr><th scope="col">Family</th><th scope="col">Viruses</th><th scope="col">Matrix protein</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">Paramyxoviridae</th><td>measles, mumps, Nipah, parainfluenza</td><td>M</td></tr>
-          <tr><th scope="row">Filoviridae</th><td>Ebola, Sudan, Marburg</td><td>VP40</td></tr>
-        </tbody>
-      </table>
+      <div class="viruses">
+        <h3>Viruses we study</h3>
+        <table>
+          <thead>
+            <tr><th scope="col">Family</th><th scope="col">Viruses</th><th scope="col">Matrix protein</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Paramyxoviruses</th>
+              <td>Measles, mumps, Nipah, parainfluenza</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <th scope="row">Filoviruses</th>
+              <td>Ebola, Sudan, Marburg</td>
+              <td>VP40</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="methods">
+        <h3>How we work</h3>
+        <ul>
+          <li><strong>X-ray crystallography</strong> for atomic structures and ligand screening</li>
+          <li><strong>Cryo-EM and cryo-ET</strong> for assemblies, lattices and intact virions</li>
+          <li><strong>Membrane biochemistry</strong> with liposomes and lipid-binding assays</li>
+          <li><strong>Cell biology and virology</strong> to test what the structures predict</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="publications" class="section">
-  <div class="row">
-    <div class="main">
+<section id="publications" class="section section-alt">
+  <div class="wrap">
+    <div class="pubs-head">
       <h2>Publications</h2>
-      <p class="quiet">
-        Also on <a href="{{ site.pi.scholar }}">Google Scholar</a> and
-        <a href="{{ site.pi.pubmed }}">PubMed</a>.
+      <p>
+        Full record on <a href="{{ site.pi.scholar }}">Google Scholar</a>
+        and <a href="{{ site.pi.pubmed }}">PubMed</a>.
       </p>
     </div>
-  </div>
 
-  {% assign by_year = pubs | group_by: "year" %}
-  {% for group in by_year %}
-  <div class="row pub-year">
-    <div class="main">
-      <ol class="pubs">
-        {% for p in group.items %}
-        <li>
-          <span class="pub-authors">{{ p.authors | replace: "Norris MJ", "<b>Norris MJ</b>" }}.</span>
-          <a class="pub-title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>.
-          <span class="pub-venue"><i>{{ p.venue }}</i> {{ p.details }}.</span>
-        </li>
-        {% endfor %}
-      </ol>
+    <div class="featured">
+      {% for p in pubs %}{% if p.featured %}
+      <article class="feature">
+        <p class="feature-venue">{{ p.venue }}, {{ p.year }}</p>
+        <h3><a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a></h3>
+        <p>{{ p.blurb }}</p>
+      </article>
+      {% endif %}{% endfor %}
     </div>
-    <aside class="margin year">{{ group.name }}</aside>
+
+    {% assign by_year = pubs | group_by: "year" %}
+    <div class="pub-list">
+      {% for group in by_year %}
+      <div class="pub-year">
+        <h3>{{ group.name }}</h3>
+        <ol>
+          {% for p in group.items %}
+          <li>
+            <a class="pub-title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>
+            <span class="pub-meta">{{ p.authors | replace: "Norris MJ", "<b>Norris MJ</b>" }}. <i>{{ p.venue }}</i> {{ p.details }}.</span>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  {% endfor %}
 </section>
 
 <section id="people" class="section">
-  <div class="row">
-    <div class="main">
-      <h2>People</h2>
-      <h3>Michael Norris</h3>
-      <p class="role">Principal investigator, Assistant Professor</p>
-      <p>
-        Michael started the lab in April 2022. Before that he was a postdoctoral fellow with
-        Erica Ollmann Saphire at Scripps Research and the La Jolla Institute for Immunology,
-        working on the structure and assembly of paramyxoviruses and filoviruses. He did his PhD
-        at the University of Toronto with Richard Hegele and Theo Moraes on new therapies for
-        respiratory syncytial virus, and his BSc and MSc at the University of Guelph. He teaches
-        BCH340, Proteins: From Structure to Function.
-      </p>
-      <p><a href="mailto:{{ site.pi.email }}">{{ site.pi.email }}</a></p>
-    </div>
-    <aside class="margin">
-      <img class="portrait" src="{{ '/assets/img/michael-norris.jpg' | relative_url }}" alt="Michael Norris" width="600" height="600">
-    </aside>
-  </div>
+  <div class="wrap">
+    <h2>People</h2>
 
-  {% if people.members and people.members.size > 0 %}
-  <div class="row">
-    <div class="main">
-      <h3>Lab members</h3>
-      <ul class="members">
-        {% for m in people.members %}
-        <li>
-          {% if m.photo %}<img src="{{ m.photo | relative_url }}" alt="" loading="lazy">{% endif %}
-          <span class="member-name">{% if m.link %}<a href="{{ m.link }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</span>
-          <span class="role">{{ m.role }}</span>
-          {% if m.note %}<span class="member-note">{{ m.note }}</span>{% endif %}
-        </li>
-        {% endfor %}
-      </ul>
+    <div class="pi">
+      <img src="{{ '/assets/img/michael-norris.jpg' | relative_url }}" alt="Michael Norris" width="600" height="600">
+      <div class="pi-text">
+        <h3>Michael J. Norris, PhD</h3>
+        <p class="role">Principal investigator. Assistant Professor, Department of Biochemistry</p>
+        <p>
+          Michael started the lab at the University of Toronto in April 2022. Before that he was a
+          postdoctoral fellow with Erica Ollmann Saphire at Scripps Research and the La Jolla
+          Institute for Immunology, where he worked on the structure and assembly of
+          paramyxoviruses and filoviruses. He did his PhD at the University of Toronto with
+          Richard Hegele and Theo Moraes, developing new therapies for respiratory syncytial
+          virus, and his BSc and MSc at the University of Guelph.
+        </p>
+        <p>
+          He teaches BCH340, Proteins: From Structure to Function, and supervises research
+          projects in BCH374, BCH473 and MGY280.
+        </p>
+        <p class="pi-links">
+          <a href="mailto:{{ site.pi.email }}">{{ site.pi.email }}</a>
+          <a href="{{ site.pi.scholar }}">Google Scholar</a>
+        </p>
+      </div>
     </div>
-  </div>
-  {% endif %}
 
-  {% if people.alumni and people.alumni.size > 0 %}
-  <div class="row">
-    <div class="main">
-      <h3>Former members</h3>
-      <ul class="alumni">
-        {% for a in people.alumni %}<li>{{ a.name }}, {{ a.role }}</li>{% endfor %}
-      </ul>
-    </div>
+    {% if people.members and people.members.size > 0 %}
+    <ul class="members">
+      {% for m in people.members %}
+      <li class="member">
+        {% if m.photo %}
+        <img src="{{ m.photo | relative_url }}" alt="{{ m.name }}" loading="lazy">
+        {% else %}
+        {% assign parts = m.name | split: " " %}
+        <span class="initials" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>
+        {% endif %}
+        <h3>{% if m.link %}<a href="{{ m.link }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</h3>
+        <p class="role">{{ m.role }}</p>
+        {% if m.note %}<p>{{ m.note }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if people.alumni and people.alumni.size > 0 %}
+    <h3 class="alumni-head">Alumni</h3>
+    <ul class="alumni">
+      {% for a in people.alumni %}<li>{{ a.name }}, {{ a.role }}</li>{% endfor %}
+    </ul>
+    {% endif %}
   </div>
-  {% endif %}
 </section>
 
-<section id="join" class="section">
-  <div class="row">
-    <div class="main">
-      <h2>Joining</h2>
+<section id="join" class="section section-alt">
+  <div class="wrap split">
+    <header class="split-head">
+      <h2>Join the lab</h2>
       <p>
-        <b>Undergraduates</b> can do a research project with us in the fall and winter terms
-        through BCH374, BCH473 or MGY280. Email Michael with your transcript and a few lines on
-        what you would like to work on.
+        We are a young lab and are building the team. If you want to see what viruses look like
+        up close and find ways to stop them, get in touch.
       </p>
-      <p>
-        <b>Graduate students</b> join through the Department of Biochemistry graduate program.
-        Please get in touch before you apply so we can talk about projects and funding.
-      </p>
-      <p>
-        <b>Postdoctoral fellows</b> with a background in structural biology, virology or membrane
-        biochemistry are welcome to write. Send a CV, a short note on what you want to work on,
-        and the names of two referees.
-      </p>
+    </header>
+    <div class="split-body join">
+      <div>
+        <h3>Undergraduates</h3>
+        <p>
+          We take research students in the fall and winter terms through BCH374, BCH473 and
+          MGY280. Email Michael with your transcript and a few sentences on what interests you.
+        </p>
+      </div>
+      <div>
+        <h3>Graduate students</h3>
+        <p>
+          MSc and PhD students join through the Department of Biochemistry graduate program.
+          Reach out before you apply so we can talk about projects.
+        </p>
+      </div>
+      <div>
+        <h3>Postdoctoral fellows</h3>
+        <p>
+          We welcome fellows with experience in structural biology, virology or membrane
+          biochemistry. Send a CV, a short statement of research interests and the names of
+          two referees.
+        </p>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="contact" class="section">
-  <div class="row">
-    <div class="main">
-      <h2>Contact</h2>
-      <address>
-        {% for line in site.address %}{{ line }}<br>{% endfor %}
-      </address>
-      <p>
-        <a href="mailto:{{ site.pi.email }}">{{ site.pi.email }}</a><br>
-        {{ site.pi.phone }}
-      </p>
-    </div>
-    <aside class="margin">
-      MaRS is at the corner of College Street and University Avenue, next to Queen's Park
-      subway station.
-    </aside>
+  <div class="wrap contact">
+    <h2>Contact</h2>
+    <address>
+      {% for line in site.address %}{{ line }}<br>{% endfor %}
+    </address>
+    <p>
+      <a href="mailto:{{ site.pi.email }}">{{ site.pi.email }}</a><br>
+      <a href="tel:+1{{ site.pi.phone | remove: '-' }}">{{ site.pi.phone }}</a>
+    </p>
+    <p><a href="https://www.openstreetmap.org/search?query=661%20University%20Ave%20Toronto">Show on a map</a></p>
   </div>
 </section>

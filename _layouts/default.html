@@ -10,19 +10,22 @@
   <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap nav">
-      <a class="brand" href="{{ '/' | relative_url }}">Norris Lab</a>
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke-width="3.2"><ellipse cx="11" cy="16" rx="6" ry="9" stroke="var(--matrix)"/><ellipse cx="21" cy="16" rx="6" ry="9" stroke="var(--lipid)"/></g></svg>
+        Norris Lab
+      </a>
       <nav aria-label="Main">
         <a href="{{ '/#research' | relative_url }}">Research</a>
         <a href="{{ '/#publications' | relative_url }}">Publications</a>
         <a href="{{ '/#people' | relative_url }}">People</a>
-        <a href="{{ '/#join' | relative_url }}">Joining</a>
+        <a href="{{ '/#join' | relative_url }}">Join</a>
         <a href="{{ '/#contact' | relative_url }}">Contact</a>
       </nav>
     </div>
@@ -35,8 +38,9 @@
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <p>Norris Lab, Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto</p>
-      <p>Author lists from PubMed. Last updated {{ site.time | date: "%B %Y" }}.</p>
       <p>
+        <a href="{{ site.pi.scholar }}">Google Scholar</a>
+        <a href="{{ site.pi.pubmed }}">PubMed</a>
         <a href="{{ site.pi.faculty_page }}">Faculty profile</a>
       </p>
     </div>

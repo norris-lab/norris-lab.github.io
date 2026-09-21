@@ -15,7 +15,7 @@ The site is configured for **https://norris-lab.github.io** (`url` in `_config.y
 
 | What | Where |
 | --- | --- |
-| Publications | `_data/publications.yml` (newest first; full author lists and DOIs from PubMed) |
+| Publications | `_data/publications.yml` (newest first; full author lists and DOIs from PubMed; `featured: true` + `blurb:` puts a paper in the "Selected work" strip) |
 | Lab members and alumni | `_data/people.yml` (photos go in `assets/img/`) |
 | Contact details, links | `_config.yml` |
 | Research text, PI bio, joining info | `index.html` |
