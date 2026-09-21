@@ -1,17 +1,17 @@
 # Lab members, listed in the order given here.
 #   role:  e.g. Postdoctoral fellow, PhD student, MSc student, Research technician, Undergraduate researcher
-#   photo: optional, path under /assets/img/
+#   photo: optional, file name in assets/img/ (e.g. thow.jpg)
 #   note:  optional, one line on their project
 #   link:  optional, personal page / LinkedIn / ORCID
 members:
   - name: Benjamin Beavington
-    photo: beavington.png
-    role: PhD student   
+    photo: beavington.jpg
+    role: PhD student
     note: Investigation of matrix-mediated host protein control in measles virus infection
 
   - name: David Van Ommen
-    photo: ommen.png
-    role: PhD student   
+    photo: ommen.jpg
+    role: PhD student
     note: Targeting the paramyxovirus matrix protein to develop broadly active antiviral therapies
 
   - name: Taylor Battellino

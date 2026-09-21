@@ -177,7 +177,8 @@ layout: default
       {% for m in people.members %}
       <li class="member">
         {% if m.photo %}
-        <img src="{{ m.photo | relative_url }}" alt="{{ m.name }}" loading="lazy">
+        {% if m.photo contains "/" %}{% assign src = m.photo %}{% else %}{% assign src = "/assets/img/" | append: m.photo %}{% endif %}
+        <img src="{{ src | relative_url }}" alt="{{ m.name }}" loading="lazy">
         {% else %}
         {% assign parts = m.name | split: " " %}
         <span class="initials" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>
