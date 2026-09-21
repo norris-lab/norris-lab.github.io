@@ -2,8 +2,8 @@ title: Norris Lab
 description: >-
   Structural virology at the University of Toronto. We study how measles, Nipah,
   Ebola and related RNA viruses assemble, and how to stop them.
-url: ""        # e.g. https://norrislab.github.io
-baseurl: ""    # e.g. /norris-lab if served from a project repository
+url: "https://norris-lab.github.io"
+baseurl: ""   # empty: served from the root of norris-lab.github.io
 lang: en
 
 pi:

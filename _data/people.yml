@@ -1,11 +1,21 @@
-# Add lab members here. `photo` is optional (path under /assets/img/).
-# role examples: Postdoctoral fellow, PhD student, MSc student, Research technician, Undergraduate
-members: []
-#  - name: Jane Doe
-#    role: PhD student
-#    photo: /assets/img/jane-doe.jpg
-#    note: Cryo-EM of the Nipah virus matrix lattice
+# Lab members, listed in the order given here.
+#   role:  e.g. Postdoctoral fellow, PhD student, MSc student, Research technician, Undergraduate researcher
+#   photo: optional, path under /assets/img/
+#   note:  optional, one line on their project
+#   link:  optional, personal page / LinkedIn / ORCID
+members:
+  - name: Benjamin Beavington
+    role: Graduate student   # TODO: MSc or PhD?
+    note: Investigation of matrix-mediated host protein control in measles virus infection
+
+  - name: David Van Ommen
+    role: Graduate student   # TODO: MSc or PhD?
+    note: Targeting the paramyxovirus matrix protein to develop broadly active antiviral therapies
+
+  - name: Zachary Thow
+    role: Lab member   # TODO: set role (e.g. PhD student) and project
+    link: https://www.linkedin.com/in/zachary-thow/
 
 alumni: []
-#  - name: John Smith
-#    role: Undergraduate (BCH473), 2024
+#  - name: Jane Doe
+#    role: Undergraduate researcher (BCH473), 2024

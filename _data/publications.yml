@@ -1,111 +1,121 @@
-# Newest first. Fields:
-#   authors  - author string; the PI's name is highlighted automatically
-#   url      - optional; if omitted the title links to a PubMed search
-#   featured - true to show in the "Selected work" strip
+# Newest first. Author lists and DOIs from PubMed.
+# The PI's name ("Norris MJ") is set in bold automatically.
+# Optional: `note:` a sentence shown under the entry.
 - year: 2026
   title: A pore-forming antiphage defence is activated by oligomeric phage proteins
-  authors: Patel et al., incl. Norris MJ
+  authors: Patel PH, McCarthy MR, Taylor VL, Cole GB, Zhang C, Edghill MM, Getz LJ, Fung BCM, Moraes TF, Davidson AR, Norris MJ, Maxwell KL
   venue: Nature
-  details: "651(8107)"
+  details: "651(8107):1060–1067"
+  doi: 10.1038/s41586-025-10075-1
 
 - year: 2025
   title: The GATE glycoprotein complex enhances human cytomegalovirus entry in endothelial cells
-  authors: Norris MJ et al.
+  authors: Norris MJ, Henderson LA, Siddiquey MNA, Yin J, Yoo K, Brunel S, Mor M, Saphire EO, Benedict CA, Kamil JP
   venue: Nature Microbiology
-  details: "10(7)"
-  featured: true
-  blurb: A previously unrecognised glycoprotein H complex that helps cytomegalovirus get into endothelial cells.
+  details: "10(7):1605–1616"
+  doi: 10.1038/s41564-025-02025-4
 
 - year: 2025
-  title: A surface lipoprotein on Pasteurella multocida binds complement factor I to promote immune evasion
-  authors: Nguyen et al., incl. Norris MJ
+  title: A surface lipoprotein on <i>Pasteurella multocida</i> binds complement factor I to promote immune evasion
+  authors: Nguyen QH, Lai CHR, Norris MJ, Ng D, Shah M, Lai CC, Isenman DE, Moraes TF
   venue: PLOS Pathogens
-  details: "21(5)"
+  details: "21(5):e1012686"
+  doi: 10.1371/journal.ppat.1012686
 
 - year: 2025
-  title: Anti-Ebola virus mAb 3A6 protects highly viremic animals from fatal outcome via binding GP(1,2) in a position elevated from the virion membrane
-  authors: Hastie et al., incl. Norris MJ
+  title: Anti-Ebola virus mAb 3A6 protects highly viremic animals from fatal outcome via binding GP<sub>1,2</sub> in a position elevated from the virion membrane
+  authors: Hastie KM, Salie ZL, Ke Z, Halfmann PJ, DeWald LE, McArdle S, Grinyó A, Davidson E, Schendel SL, Hariharan C, Norris MJ, Yu X, Chennareddy C, Xiong X, Heinrich M, Holbrook MR, Doranz B, Crozier I, Kawaoka Y, Branco LM, Kuhn JH, Briggs JAG, Worwa G, Davis CW, Ahmed R, Saphire EO
   venue: Nature Communications
-  details: "16(1)"
+  details: "16(1):1293"
+  doi: 10.1038/s41467-025-56452-2
 
 - year: 2024
   title: Development of a crystallographic screening to identify Sudan virus VP40 ligands
-  authors: Werner et al., incl. Norris MJ
+  authors: Werner AD, Krapoth N, Norris MJ, Heine A, Klebe G, Saphire EO, Becker S
   venue: ACS Omega
-  details: "9(30)"
+  details: "9(30):33193–33203"
+  doi: 10.1021/acsomega.4c04829
 
 - year: 2024
   title: A noncanonical glycoprotein H complex enhances cytomegalovirus entry
-  authors: Norris MJ et al.
+  authors: Norris MJ, Henderson LA, Siddiquey MNA, Yin J, Yoo K, Brunel S, Saphire EO, Benedict CA, Kamil JP
   venue: bioRxiv
   details: preprint
+  doi: 10.1101/2024.10.13.617647
 
 - year: 2023
-  title: The C-terminus of Sudan ebolavirus VP40 contains a functionally important CXnC motif, a target for redox modifications
-  authors: Werner et al., incl. Norris MJ
+  title: The C-terminus of Sudan ebolavirus VP40 contains a functionally important CX<sub>n</sub>C motif, a target for redox modifications
+  authors: Werner AD, Schauflinger M, Norris MJ, Klüver M, Trodler A, Herwig A, Brandstädter C, Dillenberger M, Klebe G, Heine A, Saphire EO, Becker K, Becker S
   venue: Structure
-  details: "31(9)"
+  details: "31(9):1038–1051"
+  doi: 10.1016/j.str.2023.06.004
 
 - year: 2022
   title: "Measles and Nipah virus assembly: specific lipid binding drives matrix polymerization"
-  authors: Norris MJ et al.
+  authors: Norris MJ, Husby ML, Kiosses WB, Yin J, Saxena R, Rennick LJ, Heiner A, Harkins SS, Pokhrel R, Schendel SL, Hastie KM, Landeras-Bueno S, Salie ZL, Lee B, Chapagain PP, Maisner A, Duprex WP, Stahelin RV, Saphire EO
   venue: Science Advances
-  details: "8(29)"
-  featured: true
-  blurb: Specific membrane lipids trigger the measles and Nipah matrix proteins to polymerise into the lattice that shapes new virions.
+  details: "8(29):eabn1440"
+  doi: 10.1126/sciadv.abn1440
 
 - year: 2022
   title: Delineating the mechanism of anti-Lassa virus GPC-A neutralizing antibodies
-  authors: Enriquez et al., incl. Norris MJ
+  authors: Enriquez AS, Buck TK, Li H, Norris MJ, Moon-Walker A, Zandonatti MA, Harkins SS, Robinson JE, Branco LM, Garry RF, Saphire EO, Hastie KM
   venue: Cell Reports
-  details: "39(8)"
+  details: "39(8):110841"
+  doi: 10.1016/j.celrep.2022.110841
 
 - year: 2021
   title: Statin-mediated disruption of Rho GTPase prenylation and activity inhibits respiratory syncytial virus infection
-  authors: Malhi et al., incl. Norris MJ
+  authors: Malhi M, Norris MJ, Duan W, Moraes TJ, Maynes JT
   venue: Communications Biology
-  details: "4(1)"
+  details: "4(1):1239"
+  doi: 10.1038/s42003-021-02754-2
 
 - year: 2021
   title: Alveolar-like macrophages attenuate respiratory syncytial virus infection
-  authors: Porto et al., incl. Norris MJ
+  authors: Porto BN, Litvack ML, Cen Y, Lok I, Bouch S, Norris MJ, Duan W, Ackerley C, Post M, Moraes TJ
   venue: Viruses
-  details: "13(10)"
+  details: "13(10):1960"
+  doi: 10.3390/v13101960
 
 - year: 2020
   title: Ebola and Marburg virus matrix layers are locally ordered assemblies of VP40 dimers
-  authors: Wan et al., incl. Norris MJ
+  authors: Wan W, Clarke M, Norris MJ, Kolesnikova L, Koehler A, Bornholdt ZA, Becker S, Saphire EO, Briggs JAG
   venue: eLife
-  details: "9"
-  featured: true
-  blurb: Cryo-electron tomography shows the filovirus matrix is built from VP40 dimers packed into locally ordered layers beneath the membrane.
+  details: "9:e59225"
+  doi: 10.7554/eLife.59225
 
 - year: 2019
   title: Sudan ebolavirus VP35-NP crystal structure reveals a potential target for pan-filovirus treatment
-  authors: Landeras-Bueno et al., incl. Norris MJ
+  authors: Landeras-Bueno S, Oda SI, Norris MJ, Li Salie Z, Guenaga J, Wyatt RT, Saphire EO
   venue: mBio
-  details: "10(4)"
+  details: "10(4):e00734-19"
+  doi: 10.1128/mBio.00734-19
 
 - year: 2018
   title: Targeting intracellular ion homeostasis for the control of respiratory syncytial virus
-  authors: Norris MJ et al.
+  authors: Norris MJ, Malhi M, Duan W, Ouyang H, Granados A, Cen Y, Tseng YC, Gubbay J, Maynes J, Moraes TJ
   venue: American Journal of Respiratory Cell and Molecular Biology
-  details: "59(6)"
+  details: "59(6):733–744"
+  doi: 10.1165/rcmb.2017-0345OC
 
 - year: 2017
   title: "Targeting host cell surface nucleolin for RSV therapy: challenges and opportunities"
-  authors: Mastrangelo et al., incl. Norris MJ
+  authors: Mastrangelo P, Norris MJ, Duan W, Barrett EG, Moraes TJ, Hegele RG
   venue: Vaccines
-  details: "5(3)"
+  details: "5(3):27"
+  doi: 10.3390/vaccines5030027
 
 - year: 2016
   title: Agonistic 4-1BB antibody fails to reduce disease burden during acute respiratory syncytial virus (RSV) infection
-  authors: Norris MJ et al.
+  authors: Norris MJ, Duan W, Cen Y, Moraes TJ
   venue: Antiviral Research
-  details: "125"
+  details: "125:46–50"
+  doi: 10.1016/j.antiviral.2015.10.007
 
 - year: 2014
   title: A new transcriptional role for matrix metalloproteinase-12 in antiviral immunity
-  authors: Marchant et al., incl. Norris MJ
+  authors: Marchant DJ, Bellac CL, Moraes TJ, Wadsworth SJ, Dufour A, Butler GS, Bilawchuk LM, Hendry RG, Robertson AG, Cheung CT, Ng J, Ang L, Luo Z, Heilbron K, Norris MJ, Duan W, Bucyk T, Karpov A, Devel L, Georgiadis D, Hegele RG, Luo H, Granville DJ, Dive V, McManus BM, Overall CM
   venue: Nature Medicine
-  details: "20(5)"
+  details: "20(5):493–502"
+  doi: 10.1038/nm.3508
